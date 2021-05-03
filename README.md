@@ -1,5 +1,6 @@
 # hodge-bank-event
 This project was developed for University. The goal was to create a platform where the employees of Hodge Bank could create and organise events for the company.
+You can access the live version [Hodge Bank Event Organiser](https://hodge-bank-events.herokuapp.com/)
 
 ## How to Run the Project
 
