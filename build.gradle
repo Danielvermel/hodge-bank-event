@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compile (group:'mysql', name :'mysql-connector-java',version :'5.1.13')
+    compile (group:'mysql', name :'mysql-connector-java',version :'8.0.17')
     compile("com.h2database:h2")
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
@@ -35,14 +35,14 @@ dependencies {
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
-    
+
     implementation (group:'mysql', name :'mysql-connector-java')
     implementation (group:'mysql', name :'mysql-connector-java')
 
 //    testImplementation('org.springframework.boot:spring-boot-starter-test') {
 //        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 //    }
-    
+
 
 
 
@@ -58,4 +58,3 @@ dependencies {
     testCompile group: 'org.w3c.css', name: 'sac', version: '1.3'
 
 }
-
