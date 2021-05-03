@@ -11,3 +11,8 @@ This project was developed for University. The goal was to create a platform whe
 In your Workbench run:
 1. Create a Local database;
 2. Paste the file ProjectTableCreation.sql and run it
+
+In your this project go to main > resouces > application.propreties:
+1. change username for yours;
+2. change password for yours;
+3. change the schema on the datasource.url for the one choosen by you;
